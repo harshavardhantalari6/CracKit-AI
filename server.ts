@@ -910,9 +910,13 @@ async function startServer() {
     app.get("*", (_req, res) => {
       res.sendFile(path.join(distPath, "index.html"));
     });
-  }
+} // closes else block
+} // closes startServer() function
 
-  // Local testing kosam port run avvali, kani Vercel lo direct export avvali
+// Initialize Vite/Express setup
+startServer();
+
+// Local testing kosam port run avvali
 if (process.env.NODE_ENV !== 'production') {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
@@ -920,5 +924,5 @@ if (process.env.NODE_ENV !== 'production') {
   });
 }
 
-// Vercel Serverless function kosam idi chala important
-module.exports = app;
+// Vercel Serverless function kosam
+export default app;
