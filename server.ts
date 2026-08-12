@@ -921,4 +921,4 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // Vercel Serverless function kosam idi chala important
-export default app;
+module.exports = app;
