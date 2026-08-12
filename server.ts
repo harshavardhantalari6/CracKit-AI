@@ -577,10 +577,12 @@ async function startServer() {
 startServer();
 
 // Local testing port (Ignored by Vercel Serverless)
+// Local testing port (Ignored by Vercel Serverless)
+
 if (process.env.NODE_ENV !== 'production') {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
-    console.log(`[Local Development] API Server running on port ${PORT}`);
+    console.log("API Server running locally on port " + PORT);
   });
 }
 
