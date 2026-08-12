@@ -577,8 +577,6 @@ async function startServer() {
 startServer();
 
 // Local testing port (Ignored by Vercel Serverless)
-// Local testing port (Ignored by Vercel Serverless)
-
 if (process.env.NODE_ENV !== 'production') {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
@@ -586,5 +584,5 @@ if (process.env.NODE_ENV !== 'production') {
   });
 }
 
-// Export for Vercel Serverless Environment
+// Export for Vercel Serverless
 export default app;
