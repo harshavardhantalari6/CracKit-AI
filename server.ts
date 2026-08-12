@@ -556,7 +556,6 @@ ${resumeContentStr}
 // VITE / SERVING CONFIG (VERCEL OPTIMIZED)
 // ---------------------------
 async function startServer() {
-  // ONLY load Vite dynamically in local development to prevent Vercel 500 crashes
   if (process.env.NODE_ENV !== "production") {
     try {
       const { createServer: createViteServer } = await import("vite");
@@ -569,20 +568,15 @@ async function startServer() {
       console.error("Local Vite server failed to start:", error);
     }
   }
-  // Note: In Vercel Production, we DO NOT serve static 'dist' files via Express.
-  // Vercel's Edge Network handles the React frontend automatically. 
-  // This Express app acts purely as a headless API Lambda.
 }
 
 startServer();
 
-// Local testing port (Ignored by Vercel Serverless)
-if (process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== "production") {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
     console.log("API Server running locally on port " + PORT);
   });
 }
 
-// Export for Vercel Serverless
 export default app;
