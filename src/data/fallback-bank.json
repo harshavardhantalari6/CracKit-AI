@@ -1,0 +1,134 @@
+[
+  {
+    "questionId": "fb_govt_1",
+    "questionText": "A sum of money doubles itself at compound interest in 15 years. In how many years will it become eight times itself at the same rate of interest?",
+    "topicTag": "Quantitative Aptitude",
+    "category": "govt",
+    "pyqSource": "SSC CGL 2023 Tier 1",
+    "options": ["30 years", "45 years", "60 years", "40 years"],
+    "correctOption": 1,
+    "explanation": "If Principal P becomes 2P in 15 years, then 2P becomes 4P in another 15 years (30 yrs total), and 4P becomes 8P in another 15 years (45 yrs total). So 8 times in 45 years.",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "fb_govt_2",
+    "questionText": "Two pipes A and B can fill a cistern in 20 minutes and 30 minutes respectively. If both pipes are opened together, how long will it take to fill the cistern?",
+    "topicTag": "Quantitative Aptitude",
+    "category": "govt",
+    "pyqSource": "SSC CGL 2024 Tier 1",
+    "options": ["12 minutes", "15 minutes", "10 minutes", "18 minutes"],
+    "correctOption": 0,
+    "explanation": "Combined rate in 1 min = 1/20 + 1/30 = (3 + 2)/60 = 5/60 = 1/12. Therefore, both pipes fill the cistern in 12 minutes.",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "fb_govt_3",
+    "questionText": "Which fundamental right under the Indian Constitution cannot be suspended even during a National Emergency under Article 352?",
+    "topicTag": "General Awareness",
+    "category": "govt",
+    "pyqSource": "UPSC CSE / SSC CGL 2023",
+    "options": ["Article 19 & 20", "Article 20 & 21", "Article 14 & 19", "Article 21 & 22"],
+    "correctOption": 1,
+    "explanation": "Under the 44th Constitutional Amendment Act 1978, the rights guaranteed under Article 20 (Protection in respect of conviction for offences) and Article 21 (Protection of life and personal liberty) cannot be suspended during a National Emergency.",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "fb_govt_4",
+    "questionText": "In a code language, 'FLOWER' is written as 'UOLDVI'. How will 'GARDEN' be coded in the same language?",
+    "topicTag": "General Intelligence & Reasoning",
+    "category": "govt",
+    "pyqSource": "SSC CGL 2023 Tier 1",
+    "options": ["TZIWVM", "TZIWUM", "TZIWVN", "TZIWXM"],
+    "correctOption": 0,
+    "explanation": "Each letter is replaced by its opposite alphabet position (A↔Z, B↔Y, F↔U, L↔O, O↔L, W↔D, E↔V, R↔I). Hence, G↔T, A↔Z, R↔I, D↔W, E↔V, N↔M => TZIWVM.",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "fb_govt_5",
+    "questionText": "Select the correct idiom meaning for: 'To burn the candle at both ends'.",
+    "topicTag": "English Language",
+    "category": "govt",
+    "pyqSource": "IBPS PO 2023",
+    "options": ["To waste money recklessly", "To work extremely hard from early morning to late night", "To be caught in a fire accident", "To be double minded"],
+    "correctOption": 1,
+    "explanation": "'To burn the candle at both ends' means to exhaust oneself by working or staying awake excessively long hours.",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "fb_govt_6",
+    "questionText": "A seller marks an article 30% above its cost price and gives a discount of 15% on the marked price. Find his net profit percentage.",
+    "topicTag": "Quantitative Aptitude",
+    "category": "govt",
+    "pyqSource": "SSC CGL 2024 Tier 1 Shift 2",
+    "options": ["10.5%", "12.5%", "15.0%", "10.0%"],
+    "correctOption": 0,
+    "explanation": "Let Cost Price = 100. Marked Price = 130. Discount = 15% of 130 = 19.5. Selling Price = 130 - 19.5 = 110.5. Net Profit = 110.5 - 100 = 10.5%.",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "fb_it_1",
+    "questionText": "What is the average and worst-case time complexity of searching an element in a Hash Table with a uniform hash function?",
+    "topicTag": "Data Structures & Algorithms",
+    "category": "it",
+    "pyqSource": "TCS NQT 2024 Tech Drive",
+    "options": ["Average O(1), Worst O(n)", "Average O(log n), Worst O(n)", "Average O(1), Worst O(1)", "Average O(n), Worst O(n log n)"],
+    "correctOption": 0,
+    "explanation": "Hash Tables provide O(1) constant time average-case lookup. In the worst-case scenario where all keys collide into a single bucket list, search complexity degrades to O(n).",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "fb_it_2",
+    "questionText": "Which data structure operates strictly on the Last-In, First-Out (LIFO) principle?",
+    "topicTag": "Programming Logic",
+    "category": "it",
+    "pyqSource": "Infosys SP Placement Drive 2024",
+    "options": ["Queue", "Stack", "Array", "Linked List"],
+    "correctOption": 1,
+    "explanation": "A Stack operates on a LIFO (Last-In, First-Out) mechanism where the last inserted element is the first to be removed.",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "fb_it_3",
+    "questionText": "The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What is the weight of the new person?",
+    "topicTag": "Numerical Ability",
+    "category": "it",
+    "pyqSource": "TCS NQT 2024 Ninja Track",
+    "options": ["85 kg", "80 kg", "75 kg", "90 kg"],
+    "correctOption": 0,
+    "explanation": "Total weight increase = 8 × 2.5 = 20 kg. Weight of new person = Weight of replaced person + Total weight increase = 65 + 20 = 85 kg.",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "fb_it_4",
+    "questionText": "Which HTTP method is defined as idempotent and safe for retrieving data without modifying server state?",
+    "topicTag": "Web Technologies & APIs",
+    "category": "it",
+    "pyqSource": "Wipro Elite NTH 2024",
+    "options": ["POST", "GET", "PUT", "DELETE"],
+    "correctOption": 1,
+    "explanation": "GET is a safe and idempotent HTTP method intended strictly for retrieving resource representations without causing side effects.",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "fb_it_5",
+    "questionText": "Find the next number in the logical series: 3, 7, 15, 31, 63, ?",
+    "topicTag": "Reasoning Ability",
+    "category": "it",
+    "pyqSource": "Cognizant GenC 2024",
+    "options": ["127", "125", "120", "128"],
+    "correctOption": 0,
+    "explanation": "Pattern: Each term is (Previous Term × 2) + 1. 3×2+1=7, 7×2+1=15, 15×2+1=31, 31×2+1=63, 63×2+1 = 127.",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "fb_it_6",
+    "questionText": "What is the time complexity of searching for an element in a balanced Binary Search Tree (BST) with N nodes?",
+    "topicTag": "Data Structures & Algorithms",
+    "category": "it",
+    "pyqSource": "Amazon SDE 1 Screening 2024",
+    "options": ["O(N)", "O(log N)", "O(N log N)", "O(1)"],
+    "correctOption": 1,
+    "explanation": "In a balanced BST, the tree height is log₂N. Each comparison halves the remaining search space, resulting in O(log N) time complexity.",
+    "difficulty": "Medium"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "users": {
+      "title": "Users",
+      "description": "User profiles with target goals and role access",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string" },
+        "trialStartDate": { "type": "string" },
+        "preferredGoals": { "type": "array", "items": { "type": "string" } },
+        "targetCategory": { "type": "string" },
+        "targetExamsOrCompanies": { "type": "array", "items": { "type": "string" } },
+        "weakTopics": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["uid", "email", "role"]
+    },
+    "results": {
+      "title": "Test Results",
+      "description": "Historical mock test results per user",
+      "type": "object",
+      "properties": {
+        "resultId": { "type": "string" },
+        "userId": { "type": "string" },
+        "testId": { "type": "string" },
+        "testTitle": { "type": "string" },
+        "score": { "type": "number" },
+        "totalQuestions": { "type": "number" },
+        "percentage": { "type": "number" },
+        "weakTopics": { "type": "array", "items": { "type": "string" } },
+        "completedAt": { "type": "string" }
+      },
+      "required": ["resultId", "userId", "testId", "score"]
+    },
+    "jobAlerts": {
+      "title": "Job Match Alerts",
+      "description": "Government & IT job recruitment match alerts",
+      "type": "object",
+      "properties": {
+        "jobId": { "type": "string" },
+        "title": { "type": "string" },
+        "companyOrDept": { "type": "string" },
+        "category": { "type": "string" },
+        "location": { "type": "string" },
+        "salaryOrGrade": { "type": "string" },
+        "syllabusTags": { "type": "array", "items": { "type": "string" } },
+        "deadline": { "type": "string" },
+        "applyUrl": { "type": "string" },
+        "matchedPercent": { "type": "number" },
+        "active": { "type": "boolean" }
+      },
+      "required": ["jobId", "title", "companyOrDept"]
+    }
+  }
+}

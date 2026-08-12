@@ -1,0 +1,6 @@
+{
+  "name": "CrackIt AI",
+  "description": "AI-driven Mock Test and Job Preparation Platform for Government Exams and IT Jobs with Glassmorphism iOS UI",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
