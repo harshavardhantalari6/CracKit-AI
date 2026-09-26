@@ -1,6 +1,7 @@
 import React from 'react';
 import { UserProfile, JobAlert, MockTest, TestResult } from '../types';
 import { Briefcase, Sparkles, Award, ArrowRight, ShieldAlert, CheckCircle2, Flame, Target, BookOpen, Clock, AlertTriangle, Bot, Mic, Paperclip, MessageSquare } from 'lucide-react';
+import AboutCreator from './AboutCreator';
 
 interface DashboardProps {
   user: UserProfile;
@@ -305,6 +306,9 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </button>
           </div>
         </div>
+      </div>
+      <div className="mt-12">
+        <AboutCreator />
       </div>
     </div>
   );

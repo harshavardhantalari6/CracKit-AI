@@ -11,6 +11,7 @@ import {
 import { Header } from './components/Header';
 import { Dashboard } from './components/Dashboard';
 import { Bot, Loader2 } from 'lucide-react';
+import AboutCreator from './components/AboutCreator';
 
 // Dynamic lazy imports for heavy features & modals
 const GoalTracks = lazy(() => import('./components/GoalTracks').then((m) => ({ default: m.GoalTracks })));
